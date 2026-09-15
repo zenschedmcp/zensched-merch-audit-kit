@@ -88,7 +88,7 @@ form_create:
   {"type": "number", "label": "Brand facings", "identifier": "facings", "required": true},
   {"type": "select", "label": "Out of stock", "identifier": "oos", "required": true, "options": ["None", "Partial", "Full out"]},
   {"type": "select", "label": "Planogram match", "identifier": "planogram_match", "required": true, "options": ["Yes", "No", "Unknown"]},
-  {"type": "photo", "label": "Bay photo (required, up to 3)", "identifier": "bay", "required": true, "max_images": 3},
+  {"type": "photo", "label": "Bay photo (required, up to 3)", "identifier": "bay", "required": true, "max_images": 3, "stamp_photos": true},
   {"type": "number", "label": "Competitor facings", "identifier": "competitor_facings", "required": true},
   {"type": "textarea", "label": "Notes", "identifier": "notes"},
   {"type": "select", "label": "Void reason (if not in stock)", "identifier": "void_reason",
